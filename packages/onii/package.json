@@ -1,10 +1,10 @@
 {
-  "name": "pkg",
+  "name": "onii",
   "version": "0.0.0",
   "type": "module",
-  "description": "A simple package",
-  "repository": "git+https://github.com/un-ts/mono-lib-boilerplate.git",
-  "homepage": "https://github.com/un-ts/mono-lib-boilerplate/blob/main/packages/pkg",
+  "description": "Hi, onii-san! Everything about web components!",
+  "repository": "git+https://github.com/oniijs/onii.git",
+  "homepage": "https://github.com/oniijs/onii/blob/main/packages/onii",
   "author": "JounQin (https://www.1stG.me) <admin@1stg.me>",
   "donate": {
     "recipients": [

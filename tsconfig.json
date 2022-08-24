@@ -3,12 +3,12 @@
   "compilerOptions": {
     "noEmit": true,
     "paths": {
-      "pkg": ["./packages/pkg/src"]
+      "onii": ["./packages/onii/src"]
     }
   },
   "references": [
     {
-      "path": "./packages/pkg"
+      "path": "./packages/onii"
     }
   ]
 }

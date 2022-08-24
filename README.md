@@ -1,10 +1,9 @@
-# mono-lib-boilerplate
+# @oniijs/onii
 
-[![GitHub Actions](https://github.com/un-ts/mono-lib-boilerplate/workflows/CI/badge.svg)](https://github.com/un-ts/mono-lib-boilerplate/actions/workflows/ci.yml)
-[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/un-ts/mono-lib-boilerplate.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/un-ts/mono-lib-boilerplate/context:javascript)
-[![Codecov](https://img.shields.io/codecov/c/gh/un-ts/mono-lib-boilerplate)](https://codecov.io/gh/un-ts/mono-lib-boilerplate)
-[![type-coverage](https://img.shields.io/badge/dynamic/json.svg?label=type-coverage&prefix=%E2%89%A5&suffix=%&query=$.typeCoverage.atLeast&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fun-ts%2Fmono-lib-boilerplate%2Fmain%2Fpackage.json)](https://github.com/plantain-00/type-coverage)
-[![GitHub release](https://img.shields.io/github/release/un-ts/mono-lib-boilerplate)](https://github.com/un-ts/mono-lib-boilerplate/releases)
+[![GitHub Actions](https://github.com/oniijs/onii/workflows/CI/badge.svg)](https://github.com/oniijs/onii/actions/workflows/ci.yml)
+[![Codecov](https://img.shields.io/codecov/c/gh/oniijs/onii)](https://codecov.io/gh/oniijs/onii)
+[![type-coverage](https://img.shields.io/badge/dynamic/json.svg?label=type-coverage&prefix=%E2%89%A5&suffix=%&query=$.typeCoverage.atLeast&uri=https%3A%2F%2Fraw.githubusercontent.com%2Foniijs%2Fonii%2Fmain%2Fpackage.json)](https://github.com/plantain-00/type-coverage)
+[![GitHub release](https://img.shields.io/github/release/oniijs/onii)](https://github.com/oniijs/onii/releases)
 
 [![Conventional Commits](https://img.shields.io/badge/conventional%20commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
@@ -12,15 +11,15 @@
 [![Code Style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![changesets](https://img.shields.io/badge/maintained%20with-changesets-176de3.svg)](https://github.com/changesets/changesets)
 
-> A simple mono library boilerplate
+> Hi, onii-san! Everything about web components!
 
 ## Packages
 
 This repository is a monorepo managed by [changesets][] what means we actually publish several packages to npm from same codebase, including:
 
-| Package                | Description      | Version                                                                                                                                                                                       |
-| ---------------------- | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`pkg`](/packages/pkg) | A simple package | [![npm](https://img.shields.io/npm/v/pkg.svg)](https://www.npmjs.com/package/pkg) [![View changelog](https://img.shields.io/badge/changelog-explore-brightgreen)](https://changelogs.xyz/pkg) |
+| Package                  | Description                                    | Version                                                                                                                                                                                          |
+| ------------------------ | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [`onii`](/packages/onii) | Hi, onii-san! Everything about web components! | [![npm](https://img.shields.io/npm/v/onii.svg)](https://www.npmjs.com/package/onii) [![View changelog](https://img.shields.io/badge/changelog-explore-brightgreen)](https://changelogs.xyz/onii) |
 
 ## Sponsors
 
@@ -29,6 +28,8 @@ This repository is a monorepo managed by [changesets][] what means we actually p
 | [![1stG Open Collective backers and sponsors](https://opencollective.com/1stG/organizations.svg)](https://opencollective.com/1stG) | [![RxTS Open Collective backers and sponsors](https://opencollective.com/rxts/organizations.svg)](https://opencollective.com/rxts) | [![UnTS Open Collective backers and sponsors](https://opencollective.com/unts/organizations.svg)](https://opencollective.com/unts) |
 
 ## Backers
+
+[![Backers](https://raw.githubusercontent.com/1stG/static/master/sponsors.svg)](https://github.com/sponsors/JounQin)
 
 | 1stG                                                                                                                             | RxTS                                                                                                                             | UnTS                                                                                                                             |
 | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |

@@ -1,6 +1,6 @@
-# pkg
+# onii
 
-A simple package
+Hi, onii-san! Everything about web components!
 
 ## TOC <!-- omit in toc -->
 
@@ -18,19 +18,19 @@ A simple package
 
 ```sh
 # pnpm
-pnpm add pkg
+pnpm add onii
 
 # yarn
-yarn add pkg
+yarn add onii
 
 # npm
-npm i pkg
+npm i onii
 ```
 
 ### API
 
 ```js
-import echo from 'pkg'
+import echo from 'onii'
 
 echo()
 ```

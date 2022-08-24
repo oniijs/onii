@@ -1,7 +1,8 @@
 {
   "version": 2,
   "alias": [
-    "mono-lib-boilerplate.vercel.app"
+    "onii.vercel.app",
+    "oniijs.vercel.app"
   ],
   "github": {
     "silent": true
