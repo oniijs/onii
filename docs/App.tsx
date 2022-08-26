@@ -7,10 +7,14 @@ import {
   Navigate,
 } from 'react-router-dom'
 
+import { define } from '@oniijs/quill'
+
 import './global.scss'
 import 'github-markdown-css'
 
 export type Params = { name: string } | { orgName: string; pkgName: string }
+
+define()
 
 const Readme = () => {
   const params = useParams<Params>() as Readonly<Params>
@@ -52,6 +56,15 @@ export const App = () => (
       <Route
         path="/packages/:name"
         element={<Readme />}
+      />
+      <Route
+        path="/packages/:orgName/:pkgName"
+        element={
+          <>
+            <onii-quill />
+            <Readme />
+          </>
+        }
       />
       <Route
         path="/packages/:orgName/:pkgName"

@@ -1,10 +1,10 @@
 {
-  "name": "onii",
+  "name": "@oniijs/quill",
   "version": "0.0.0",
   "type": "module",
-  "description": "Hi, onii-san! Everything about web components!",
+  "description": "Your powerful rich text editor with Web Components",
   "repository": "git+https://github.com/oniijs/onii.git",
-  "homepage": "https://github.com/oniijs/onii/blob/main/packages/onii",
+  "homepage": "https://github.com/oniijs/onii/blob/main/packages/quill",
   "author": "JounQin (https://www.1stG.me) <admin@1stg.me>",
   "funding": "https://opencollective.com/unts",
   "license": "MIT",
@@ -16,7 +16,7 @@
     "lib"
   ],
   "dependencies": {
-    "tslib": "^2.4.0"
+    "quill": "^2.0.0-dev.4"
   },
   "publishConfig": {
     "access": "public",

@@ -8,6 +8,7 @@ export default defineConfig({
     }),
   ],
   test: {
+    environment: 'happy-dom',
     coverage: {
       provider: 'istanbul',
       reporter: ['lcov', 'json', 'text'],
