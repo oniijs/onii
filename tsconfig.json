@@ -1,14 +1,11 @@
 {
-  "extends": "@1stg/tsconfig/lib",
-  "compilerOptions": {
-    "noEmit": true,
-    "paths": {
-      "onii": ["./packages/onii/src"]
-    }
-  },
+  "extends": "./tsconfig.base",
   "references": [
     {
       "path": "./packages/onii"
+    },
+    {
+      "path": "./packages/@oniijs/quill"
     }
   ]
 }

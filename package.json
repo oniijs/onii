@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
+    "packages/@oniijs/*",
     "packages/*"
   ],
   "packageManager": "pnpm@7.9.5",
@@ -34,32 +35,38 @@
     "version": "changeset version"
   },
   "devDependencies": {
-    "@1stg/app-config": "^7.1.1",
-    "@1stg/lib-config": "^10.1.1",
+    "@1stg/app-config": "^7.2.1",
+    "@1stg/lib-config": "^10.2.1",
     "@changesets/changelog-github": "^0.4.6",
     "@changesets/cli": "^2.24.3",
-    "@pkgr/webpack": "^3.3.0",
-    "@pkgr/webpack-mdx": "^2.1.0",
+    "@oniijs/quill": "workspace:*",
+    "@pkgr/webpack": "^3.3.1",
+    "@pkgr/webpack-mdx": "^2.1.1",
+    "@size-limit/preset-small-lib": "^8.0.1",
     "@types/node": "^18.7.13",
+    "@types/quill": "^2.0.9",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@types/web": "^0.0.72",
     "@vitest/coverage-istanbul": "^0.22.1",
     "github-markdown-css": "^5.1.0",
+    "happy-dom": "^6.0.4",
     "onii": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
     "sirv-cli": "^2.0.2",
+    "size-limit": "^8.0.1",
     "tsx": "^3.8.2",
     "type-coverage": "^2.22.0",
-    "typescript": "^4.7.4",
+    "typescript": "^4.8.2",
     "unplugin-auto-import": "^0.11.2",
     "vitest": "^0.22.1"
   },
   "resolutions": {
     "prettier": "^2.7.1"
   },
+  "browserslist": "extends @1stg/browserslist-config/modern",
   "commitlint": {
     "extends": "@1stg"
   },
@@ -90,6 +97,19 @@
       "@1stg"
     ]
   },
+  "size-limit": [
+    {
+      "path": "packages/@oniijs/quill/lib/index.js",
+      "ignore": [
+        "quill"
+      ],
+      "limit": "700B"
+    },
+    {
+      "path": "packages/onii/lib/index.js",
+      "limit": "40B"
+    }
+  ],
   "stylelint": {
     "extends": "@1stg/stylelint-config"
   },
