@@ -17,10 +17,10 @@
 
 This repository is a monorepo managed by [changesets][] what means we actually publish several packages to npm from same codebase, including:
 
-| Package                                  | Description                                        | Version                                                                                                                                                                                                               |
-| ---------------------------------------- | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`onii`](/packages/onii)                 | Hi, onii-san! Everything about web components!     | [![npm](https://img.shields.io/npm/v/onii.svg)](https://www.npmjs.com/package/onii) [![View changelog](https://img.shields.io/badge/changelog-explore-brightgreen)](https://changelogs.xyz/onii)                      |
-| [`@onii/quill`](/packages/@oniijs/quill) | Your powerful rich text editor with Web Components | [![npm](https://img.shields.io/npm/v/@onii/quill.svg)](https://www.npmjs.com/package/@onii/quill) [![View changelog](https://img.shields.io/badge/changelog-explore-brightgreen)](https://changelogs.xyz/@onii/quill) |
+| Package                                    | Description                                        | Version                                                                                                                                                                                                                     |
+| ------------------------------------------ | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`onii`](/packages/onii)                   | Hi, onii-san! Everything about web components!     | [![npm](https://img.shields.io/npm/v/onii.svg)](https://www.npmjs.com/package/onii) [![View changelog](https://img.shields.io/badge/changelog-explore-brightgreen)](https://changelogs.xyz/onii)                            |
+| [`@oniijs/quill`](/packages/@oniijs/quill) | Your powerful rich text editor with Web Components | [![npm](https://img.shields.io/npm/v/@oniijs/quill.svg)](https://www.npmjs.com/package/@oniijs/quill) [![View changelog](https://img.shields.io/badge/changelog-explore-brightgreen)](https://changelogs.xyz/@oniijs/quill) |
 
 ## Sponsors
 
