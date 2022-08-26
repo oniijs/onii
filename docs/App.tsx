@@ -59,12 +59,7 @@ export const App = () => (
       />
       <Route
         path="/packages/:orgName/:pkgName"
-        element={
-          <>
-            <onii-quill />
-            <Readme />
-          </>
-        }
+        element={<Readme />}
       />
       <Route
         path="/packages/:orgName/:pkgName"

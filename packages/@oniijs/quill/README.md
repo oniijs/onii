@@ -7,6 +7,7 @@ Your powerful rich text editor with Web Components
 - [Usage](#usage)
   - [Install](#install)
   - [API](#api)
+- [Demo](#demo)
 - [Sponsors](#sponsors)
 - [Backers](#backers)
 - [Changelog](#changelog)
@@ -34,6 +35,10 @@ import echo from '@oniijs/quill'
 
 echo()
 ```
+
+## Demo
+
+<onii-quill></onii-quill>
 
 ## Sponsors
 

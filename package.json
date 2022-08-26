@@ -55,6 +55,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
+    "rehype-raw": "^6.1.1",
     "sirv-cli": "^2.0.2",
     "size-limit": "^8.0.1",
     "tsx": "^3.8.2",
@@ -86,6 +87,11 @@
     "!/.github",
     "!/.*.cjs"
   ],
+  "pnpm": {
+    "patchedDependencies": {
+      "@pkgr/webpack@3.3.1": "patches/@pkgr__webpack@3.3.1.patch"
+    }
+  },
   "prettier": "@1stg/prettier-config",
   "remarkConfig": {
     "plugins": [
