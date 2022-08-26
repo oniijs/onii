@@ -38,8 +38,7 @@ echo()
 
 ## Demo
 
-<onii-quill>
-</onii-quill>
+<onii-quill></onii-quill>
 
 ## Sponsors
 
