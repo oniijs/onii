@@ -1,4 +1,8 @@
+import { Quill } from 'quill'
+
 export class OniiQuill extends HTMLElement {
+  declare quill: Quill
+
   constructor() {
     super()
 
