@@ -25,7 +25,7 @@
     "lint:style": "stylelint . --cache",
     "lint:tsc": "tsc --noEmit",
     "postversion": "pnpm i --no-frozen-lockfile",
-    "prepare": "simple-git-hooks",
+    "prepare": "simple-git-hooks && tsx scripts/styles",
     "prerelease": "pnpm build",
     "prevercel-build": "pnpm build",
     "release": "changeset publish",
@@ -51,7 +51,7 @@
     "@types/web": "^0.0.72",
     "@vitest/coverage-istanbul": "^0.22.1",
     "github-markdown-css": "^5.1.0",
-    "happy-dom": "^6.0.4",
+    "jsdom": "^20.0.0",
     "onii": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -105,7 +105,7 @@
       "ignore": [
         "quill"
       ],
-      "limit": "700B"
+      "limit": "4kB"
     },
     {
       "path": "packages/onii/lib/index.js",
