@@ -40,8 +40,8 @@
     "@changesets/changelog-github": "^0.4.6",
     "@changesets/cli": "^2.24.3",
     "@oniijs/quill": "workspace:*",
-    "@pkgr/webpack": "^3.3.1",
-    "@pkgr/webpack-mdx": "^2.1.1",
+    "@pkgr/webpack": "^3.4.0",
+    "@pkgr/webpack-mdx": "^2.2.0",
     "@size-limit/preset-small-lib": "^8.0.1",
     "@types/node": "^18.7.13",
     "@types/quill": "^2.0.9",
@@ -87,11 +87,6 @@
     "!/.github",
     "!/.*.cjs"
   ],
-  "pnpm": {
-    "patchedDependencies": {
-      "@pkgr/webpack@3.3.1": "patches/@pkgr__webpack@3.3.1.patch"
-    }
-  },
   "prettier": "@1stg/prettier-config",
   "remarkConfig": {
     "plugins": [

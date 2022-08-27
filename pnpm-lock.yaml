@@ -3,11 +3,6 @@ lockfileVersion: 5.4
 overrides:
   prettier: ^2.7.1
 
-patchedDependencies:
-  '@pkgr/webpack@3.3.1':
-    hash: ou7f55btbrm57zw745b2lsiaoq
-    path: patches/@pkgr__webpack@3.3.1.patch
-
 importers:
 
   .:
@@ -17,8 +12,8 @@ importers:
       '@changesets/changelog-github': ^0.4.6
       '@changesets/cli': ^2.24.3
       '@oniijs/quill': workspace:*
-      '@pkgr/webpack': ^3.3.1
-      '@pkgr/webpack-mdx': ^2.1.1
+      '@pkgr/webpack': ^3.4.0
+      '@pkgr/webpack-mdx': ^2.2.0
       '@size-limit/preset-small-lib': ^8.0.1
       '@types/node': ^18.7.13
       '@types/quill': ^2.0.9
@@ -46,8 +41,8 @@ importers:
       '@changesets/changelog-github': 0.4.6
       '@changesets/cli': 2.24.3
       '@oniijs/quill': link:packages/@oniijs/quill
-      '@pkgr/webpack': 3.3.1_ou7f55btbrm57zw745b2lsiaoq_bpuwoki5jmikp77kjeztyxagem
-      '@pkgr/webpack-mdx': 2.1.1_fwqns4sirp3l2w2opvooqgyezm
+      '@pkgr/webpack': 3.4.0_bpuwoki5jmikp77kjeztyxagem
+      '@pkgr/webpack-mdx': 2.2.0_fwqns4sirp3l2w2opvooqgyezm
       '@size-limit/preset-small-lib': 8.0.1_size-limit@8.0.1
       '@types/node': 18.7.13
       '@types/quill': 2.0.9
@@ -3045,11 +3040,12 @@ packages:
       tslib: 2.4.0
     dev: true
 
-  /@pkgr/webpack-mdx/2.1.1_fwqns4sirp3l2w2opvooqgyezm:
-    resolution: {integrity: sha512-lYU5oav5cjm2XWJF1h/jw2w4PvyvboigH/oG6ApjRnYrjmGfh5fJmSsKMG/3vjTdeCPLTTF2/5WSo9bAZ9HZBA==}
+  /@pkgr/webpack-mdx/2.2.0_fwqns4sirp3l2w2opvooqgyezm:
+    resolution: {integrity: sha512-8TMEgsdebZwayZ8AEl/LK3eGvqiP6I1aPi7XjUEWozwzUl4NpCOSUbs9v2n4OicjzNluT5myaqBtT7VrqQ46ew==}
     dependencies:
       '@mdx-js/loader': 2.1.3_webpack@5.74.0
       '@pkgr/webpack-react': 2.1.1_2ohzzuwmh3eqipnfsf2do2om6a
+      rehype-raw: 6.1.1
       remark-gfm: 3.0.1
     transitivePeerDependencies:
       - '@swc/core'
@@ -3077,7 +3073,7 @@ packages:
     peerDependencies:
       react: '>=16.0.0'
     dependencies:
-      '@pkgr/webpack': 3.3.1_ou7f55btbrm57zw745b2lsiaoq_bpuwoki5jmikp77kjeztyxagem
+      '@pkgr/webpack': 3.4.0_bpuwoki5jmikp77kjeztyxagem
       '@svgr/webpack': 6.3.1
       react: 18.2.0
     transitivePeerDependencies:
@@ -3099,8 +3095,8 @@ packages:
       - webpack-cli
     dev: true
 
-  /@pkgr/webpack/3.3.1_ou7f55btbrm57zw745b2lsiaoq_bpuwoki5jmikp77kjeztyxagem:
-    resolution: {integrity: sha512-W0PlAddq/qZKhZ5RFd+57PiBWb7ZtA6HaZT7g4MsCifzVSJSI3XPoEgIIwxfMz8gqCUSakg+sPBREih7oq2cUw==}
+  /@pkgr/webpack/3.4.0_bpuwoki5jmikp77kjeztyxagem:
+    resolution: {integrity: sha512-wwE3uXvpm3PWbeFHOhk/ooCJ5eefrrLGd8RbQ98N1v/RA5yGfmJS42vYZLwAu0Wpl8Kw+QgMiCz0YevACHouzg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -3161,7 +3157,6 @@ packages:
       - vue
       - webpack-cli
     dev: true
-    patched: true
 
   /@polka/url/1.0.0-next.21:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
@@ -3648,13 +3643,13 @@ packages:
     resolution: {integrity: sha512-9K4zoImiZc3HlIp6AVUDE4CWYx22a+lhSZMYNpbjW04+YF0KWj4pJXnEMjdnFTiQibFFmElcsasJXDbdI/EPhA==}
     dependencies:
       '@types/eslint': 8.4.6
-      '@types/estree': 0.0.51
+      '@types/estree': 1.0.0
     dev: true
 
   /@types/eslint/8.4.6:
     resolution: {integrity: sha512-/fqTbjxyFUaYNO7VcW5g+4npmqVACz1bB7RTHYuLj+PRjw9hrCwrUXVQFpChUS0JsyEFvMZ7U/PfmvWgxJhI9g==}
     dependencies:
-      '@types/estree': 0.0.51
+      '@types/estree': 1.0.0
       '@types/json-schema': 7.0.11
     dev: true
 
