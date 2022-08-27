@@ -19,6 +19,7 @@
     "clean": "rimraf packages/**/{lib,*.tsbuildinfo}",
     "codesandbox:install": "npx pnpm@7.9.5 i",
     "dev": "w -e docs --disableDotRule --publicPath /",
+    "docs:build": "w -e docs -p --publicPath /",
     "lint": "run-p lint:*",
     "lint:es": "eslint . --cache -f friendly",
     "lint:style": "stylelint . --cache",
