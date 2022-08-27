@@ -38,7 +38,7 @@ echo()
 
 ## Demo
 
-<onii-quill></onii-quill>
+<onii-quill theme="snow"></onii-quill>
 
 ## Sponsors
 

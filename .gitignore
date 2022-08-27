@@ -5,3 +5,4 @@
 coverage
 lib
 node_modules
+packages/@oniijs/*/styles
