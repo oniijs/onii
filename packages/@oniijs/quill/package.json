@@ -1,6 +1,6 @@
 {
   "name": "@oniijs/quill",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "description": "Your powerful rich text editor with Web Components",
   "repository": "git+https://github.com/oniijs/onii.git",
