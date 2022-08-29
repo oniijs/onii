@@ -33,7 +33,8 @@ const main = async () => {
         }
         return fs.writeFile(
           path.resolve(QUILL_STYLES_DEST_DIR, `${theme}.ts`),
-          `export default \`${css.replaceAll('\\', '\\\\\\\\')}\`\n`,
+          // https://github.com/vercel/styled-jsx/issues/615
+          `export default \`${css.replaceAll('\\', '\\\\')}\`\n`,
         )
       }),
   )
