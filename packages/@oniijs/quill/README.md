@@ -38,7 +38,9 @@ echo()
 
 ## Demo
 
-<onii-quill theme="snow"></onii-quill>
+<onii-quill
+placeholder="Compose an epic..."
+theme="snow"></onii-quill>
 
 ## Sponsors
 
