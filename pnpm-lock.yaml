@@ -16,7 +16,7 @@ importers:
       '@pkgr/webpack-mdx': ^2.2.0
       '@size-limit/preset-small-lib': ^8.1.0
       '@types/node': ^18.7.18
-      '@types/quill': ^2.0.9
+      '@types/quill': ^2.0.10
       '@types/react': ^18.0.25
       '@types/react-dom': ^18.0.9
       '@types/web': ^0.0.75
@@ -45,7 +45,7 @@ importers:
       '@pkgr/webpack-mdx': 2.2.0_zssuidi6spqosrwohgmztdb2ua
       '@size-limit/preset-small-lib': 8.1.0_size-limit@8.1.0
       '@types/node': 18.7.18
-      '@types/quill': 2.0.9
+      '@types/quill': 2.0.10
       '@types/react': 18.0.25
       '@types/react-dom': 18.0.9
       '@types/web': 0.0.75
@@ -5272,8 +5272,8 @@ packages:
     resolution: {integrity: sha512-FGa1F62FT09qcrueBA6qYTrJPVDzah9a+493+o2PCXsesWHIn27G98TsSMs3WPNbZIEj4+VJf6saSFpvD+3Zsw==}
     dev: true
 
-  /@types/quill/2.0.9:
-    resolution: {integrity: sha512-/n40Ypp+jF3GDLqB/5z1P+Odq1K98txXbBgRDkG6Z90LGC1AwQPtZWNeOdDg0yUlgBSUASmpeDn3eBPUuPXtuw==}
+  /@types/quill/2.0.10:
+    resolution: {integrity: sha512-L6OHONEj2v4NRbWQOsn7j1N0SyzhRR3M4g1M6j/uuIwIsIW2ShWHhwbqNvH8hSmVktzqu0lITfdnqVOQ4qkrhA==}
     dependencies:
       parchment: 1.1.4
       quill-delta: 4.2.2
