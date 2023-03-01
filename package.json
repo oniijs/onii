@@ -51,7 +51,7 @@
     "@types/web": "^0.0.93",
     "@vitest/coverage-istanbul": "^0.23.4",
     "github-markdown-css": "^5.1.0",
-    "jsdom": "^20.0.0",
+    "jsdom": "^20.0.3",
     "onii": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
