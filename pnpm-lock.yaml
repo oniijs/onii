@@ -29,7 +29,7 @@ importers:
       react-router-dom: ^6.4.0
       rehype-raw: ^6.1.1
       sirv-cli: ^2.0.2
-      size-limit: ^8.1.0
+      size-limit: ^8.2.6
       tsx: ^3.9.0
       type-coverage: ^2.22.0
       typescript: ^4.8.3
@@ -43,7 +43,7 @@ importers:
       '@oniijs/quill': link:packages/@oniijs/quill
       '@pkgr/webpack': 3.4.0_pzdcorph2zhdsj5jsg2p7pw32e
       '@pkgr/webpack-mdx': 2.2.0_zssuidi6spqosrwohgmztdb2ua
-      '@size-limit/preset-small-lib': 8.1.2_size-limit@8.1.0
+      '@size-limit/preset-small-lib': 8.1.2_size-limit@8.2.6
       '@types/node': 18.7.18
       '@types/quill': 2.0.10
       '@types/react': 18.0.27
@@ -58,7 +58,7 @@ importers:
       react-router-dom: 6.4.0_biqbaboplfbrettd7655fr4n2y
       rehype-raw: 6.1.1
       sirv-cli: 2.0.2
-      size-limit: 8.1.0
+      size-limit: 8.2.6
       tsx: 3.9.0
       type-coverage: 2.22.0_typescript@4.8.3
       typescript: 4.8.3
@@ -4992,7 +4992,7 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /@size-limit/esbuild/8.1.2_size-limit@8.1.0:
+  /@size-limit/esbuild/8.1.2_size-limit@8.2.6:
     resolution: {integrity: sha512-BQZg+8QDVz4qQK4Iok8bjrAmzUPDTQW5ht6IrqLfeinHZQOn05fkxbcQuGoja0r6xoQ9+bM7b4cnqgCl61dXEw==}
     engines: {node: ^14.0.0 || ^16.0.0 || >=18.0.0}
     peerDependencies:
@@ -5000,27 +5000,27 @@ packages:
     dependencies:
       esbuild: 0.17.5
       nanoid: 3.3.4
-      size-limit: 8.1.0
+      size-limit: 8.2.6
     dev: true
 
-  /@size-limit/file/8.1.2_size-limit@8.1.0:
+  /@size-limit/file/8.1.2_size-limit@8.2.6:
     resolution: {integrity: sha512-cjtGk1GejrmT+ik3LjXpRe+zrS/U15h+Py3L8sYN0XGat0+Y6pPbli1VuRRRcdXZNegpiW+UcxDxPN1AuZC5qA==}
     engines: {node: ^14.0.0 || ^16.0.0 || >=18.0.0}
     peerDependencies:
       size-limit: 8.1.2
     dependencies:
       semver: 7.3.8
-      size-limit: 8.1.0
+      size-limit: 8.2.6
     dev: true
 
-  /@size-limit/preset-small-lib/8.1.2_size-limit@8.1.0:
+  /@size-limit/preset-small-lib/8.1.2_size-limit@8.2.6:
     resolution: {integrity: sha512-KfczbDq+4qFUXVMdNJlIZycp1WY1aqSfHfz4nRZNVaSxBSixrgBYkV6/M+qwP2axNFIXGzIMolqbTCUxvqikyQ==}
     peerDependencies:
       size-limit: 8.1.2
     dependencies:
-      '@size-limit/esbuild': 8.1.2_size-limit@8.1.0
-      '@size-limit/file': 8.1.2_size-limit@8.1.0
-      size-limit: 8.1.0
+      '@size-limit/esbuild': 8.1.2_size-limit@8.2.6
+      '@size-limit/file': 8.1.2_size-limit@8.2.6
+      size-limit: 8.2.6
     dev: true
 
   /@soda/friendly-errors-webpack-plugin/1.8.1_webpack@5.74.0:
@@ -7267,10 +7267,6 @@ packages:
     resolution: {integrity: sha512-xmDt/QIAdeZ9+nfdPsaBCpMvHNLFiLdjj59qjqn+6iPe6YmHGQ35sBnQ8uslRBXFmXkiZQOJRjvQeoGppoTjjg==}
     dev: true
 
-  /ci-job-number/1.2.2:
-    resolution: {integrity: sha512-CLOGsVDrVamzv8sXJGaILUVI6dsuAkouJP/n6t+OxLPeeA4DDby7zn9SB6EUpa1H7oIKoE+rMmkW80zYsFfUjA==}
-    dev: true
-
   /clean-css/5.3.1:
     resolution: {integrity: sha512-lCr8OHhiWCTw4v8POJovCoh4T7I9U11yVsPjMWWnnMmp9ZowCxyad1Pathle/9HjaDp+fdQKjO9fQydE6RHTZg==}
     engines: {node: '>= 10.0'}
@@ -7583,7 +7579,7 @@ packages:
     peerDependencies:
       webpack: ^5.1.0
     dependencies:
-      fast-glob: 3.2.11
+      fast-glob: 3.2.12
       glob-parent: 6.0.2
       globby: 13.1.2
       normalize-path: 3.0.0
@@ -7872,7 +7868,7 @@ packages:
       postcss: ^8.2.15
     dependencies:
       cssnano-preset-default: 5.2.12_postcss@8.4.16
-      lilconfig: 2.0.6
+      lilconfig: 2.1.0
       postcss: 8.4.16
       yaml: 1.10.2
     dev: true
@@ -10910,7 +10906,7 @@ packages:
     dependencies:
       array-union: 2.1.0
       dir-glob: 3.0.1
-      fast-glob: 3.2.11
+      fast-glob: 3.2.12
       ignore: 5.2.0
       merge2: 1.4.1
       slash: 3.0.0
@@ -10933,7 +10929,7 @@ packages:
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
       dir-glob: 3.0.1
-      fast-glob: 3.2.11
+      fast-glob: 3.2.12
       ignore: 5.2.0
       merge2: 1.4.1
       slash: 4.0.0
@@ -12492,8 +12488,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /lilconfig/2.0.6:
-    resolution: {integrity: sha512-9JROoBW7pobfsx+Sq2JsASvCo6Pfo6WWoUW79HuB1BCoBXD4PLWJPqDF6fNj67pqBYTbAHkE57M1kS/+L1neOg==}
+  /lilconfig/2.1.0:
+    resolution: {integrity: sha512-utWOt/GHzuUxnLKxB6dk81RoOeoNeHgbrXiuGk4yyF5qlRz+iIVWu56E2fqGHFrXz0QNUhLB/8nKqvRH66JKGQ==}
     engines: {node: '>=10'}
     dev: true
 
@@ -14964,7 +14960,7 @@ packages:
       ts-node:
         optional: true
     dependencies:
-      lilconfig: 2.0.6
+      lilconfig: 2.1.0
       postcss: 8.4.16
       ts-node: 10.9.1_bidgzm5cq2du6gnjtweqqjrrn4
       yaml: 1.10.2
@@ -14982,7 +14978,7 @@ packages:
       ts-node:
         optional: true
     dependencies:
-      lilconfig: 2.0.6
+      lilconfig: 2.1.0
       postcss: 8.4.16
       ts-node: 10.9.1_bidgzm5cq2du6gnjtweqqjrrn4
       yaml: 2.1.1
@@ -17686,17 +17682,15 @@ packages:
       totalist: 3.0.0
     dev: true
 
-  /size-limit/8.1.0:
-    resolution: {integrity: sha512-bUL+Uyyt/G+a1XzKlI2WKHVDepmXtqMDhF65pdtjccheiQTNjExWW4nFefgbRL2QgNTzRfK6ayFKjO3o4ER4gg==}
+  /size-limit/8.2.6:
+    resolution: {integrity: sha512-zpznim/tX/NegjoQuRKgWTF4XiB0cn2qt90uJzxYNTFAqexk4b94DOAkBD3TwhC6c3kw2r0KcnA5upziVMZqDg==}
     engines: {node: ^14.0.0 || ^16.0.0 || >=18.0.0}
     hasBin: true
     dependencies:
       bytes-iec: 3.1.1
       chokidar: 3.5.3
-      ci-job-number: 1.2.2
       globby: 11.1.0
-      lilconfig: 2.0.6
-      mkdirp: 1.0.4
+      lilconfig: 2.1.0
       nanospinner: 1.1.0
       picocolors: 1.0.0
     dev: true
@@ -18365,7 +18359,7 @@ packages:
       stylus: '>=0.52.4'
       webpack: ^5.0.0
     dependencies:
-      fast-glob: 3.2.11
+      fast-glob: 3.2.12
       klona: 2.0.5
       normalize-path: 3.0.0
       stylus: 0.59.0
@@ -18904,7 +18898,7 @@ packages:
     peerDependencies:
       typescript: 2 || 3 || 4
     dependencies:
-      fast-glob: 3.2.11
+      fast-glob: 3.2.12
       minimatch: 5.1.0
       normalize-path: 3.0.0
       tslib: 2.4.0
